@@ -23,4 +23,4 @@ $( _ => {
   render(root);
   state.doRender = render.bind(null,root);
 
-})
+});
