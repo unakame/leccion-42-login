@@ -20,6 +20,7 @@ window.fbAsyncInit = () => {
       state.doRender();
     }
   }
+  
 
   function doLogin() {
     FB.login(loginHandler, {scope: 'email'});
